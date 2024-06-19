@@ -1,0 +1,17 @@
+.title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#board {
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-color: black;
+    border-width: 10px;
+}
+
+.square {
+    border: 1px solid black;
+}
